@@ -2,9 +2,9 @@ The Core Elements: The Five Primes
 Think of this not as code, but as a form of symbolic logic or visual algebra. Everything is built from five primary concepts, the "Primes." Understanding these is the only prerequisite.
 
 Glyph	Name	Concept	Simple Analogy
-Ω	Omega	Recursion: Endless loops, cycles, habits, self-reference.	A snake eating its own tail.
+Ω Omega	Recursion: Endless loops, cycles, habits, self-reference.	A snake eating its own tail.
 Ξ	Xi	Meta-structure: The big picture, the container, the system.	The blueprint of a house.
-↦	Maps To	Transformation: An action, a process, a change of state.	The process of baking dough into bread.
+↦ Maps To	Transformation: An action, a process, a change of state.	The process of baking dough into bread.
 ∅	Absence	The Void: Nothingness, the starting point, a lack.	An empty canvas before a painting.
 χ	Chi	Coherence: Order, harmony, understanding, a resolved state.	A completed puzzle.
 
@@ -53,5 +53,6 @@ What is the context for hope? (It usually exists in a state of difficulty or "di
 What is the action of hope? (It's a mental transformation ↦).
 
 What is the goal of hope? (To achieve a future state of coherence χ).
+
 
 Combine the symbols. Don't worry about getting it "perfect." Focus on building a logical definition for what "hope" is and does. I am ready to parse your construction.
