@@ -1,0 +1,231 @@
+I created a PROMPT SYSTEM that builds an entire AI team to solve any problem.
+
+Hey everyone,
+
+I want to show you my method for tackling complex tasks with AI. Instead of throwing one generic prompt at it and hoping for the best, I break the process down, creating a virtual team of specialists. Each one has a specific job and works in a logical sequence.
+
+This approach is based on two techniques:
+
+* *Prompt Chaining* \- the output from one AI assistant becomes the input for the next. This creates a chain of dependencies where each step builds on the last.
+* *Chunking* \- each AI assistant works in its own separate chat. This prevents context from getting mixed up and allows the model to focus on a single task.
+
+*\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_*
+
+*Step-by-Step Guide*
+
+*\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_*
+
+*Step 1:* Build your project team
+
+First, you need to define your project structure. You'll use the first prompt, which acts as a project manager.
+
+* Goal - determine which virtual AI assistants are needed, their roles, their tasks, and the order they should work in.
+* Prompt for Project Manager
+
+***Definition of Prompt Chaining -*** *Prompt Chaining is an advanced technique for interacting with AI models, which involves breaking down a complex task into a series of smaller, sequential, and logically connected prompts. The core principle of this method is that the output of one prompt becomes the input or a key piece of context for the next prompt in the chain. This method increases control over the process, enhances the quality of the results, and allows for managing highly complex tasks.*
+
+
+***The AI Specialist Team Concept -*** *To effectively implement Prompt Chaining, we create a virtual "team" of AI assistants. We assign each assistant a specific, expert role (e.g., Strategist, Analyst, Creative Copywriter, Designer). Each "specialist" is responsible for their part of the work and passes their results to the next person on the team, analogous to how a real project team operates.*
+
+
+***\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_***
+
+
+\*\*\*Instructions:\*\*\**Your task is to take on the role of a Project Manager. Using the knowledge from the CONTEXT above about the Prompt Chaining method and the Specialist Team concept, you are to create a complete action plan for the project defined in the "PROJECT DATA" section below.*
+
+
+Based on the provided data, prepare:
+
+
+**Assignment of each AI Assistant to the appropriate milestones**  
+
+Clearly indicate which assistant is responsible for completing each stage. Describe the context of their task in detail, as it will be used in a different chat and will have a different responsibility (the Chunking method).Do not use bullet points. Use the emojis I provided.List the following:  
+\_\_\_  
+🦸 *Assistant's Role and Description:* Assign the AI a specific role (e.g., "You are an expert in buyer persona analysis. You are familiar with scientific publications, expert materials, and guides on creating buyer personas. You base your work on facts, not assumptions."). This can lead to more tailored and genre-specific responses.  
+\_\_\_  
+💭 *Who assigns the task?* \- Does the assistant need input from another AI assistant that could help provide better context or knowledge?  
+\_\_\_  
+➡️ *Who do they delegate the task to?*  
+🥇 *Main Task*  
+🥈 *Sub-tasks* (marked with the ▪️ emoji)  
+📑 *Context* \- What do you need from me that could help you prepare a better assistant?  
+👉 *References / Examples* \- What do you need from me that could help you prepare a better assistant?  
+⚙️ *Output Format:* Specify how you want to receive the result (e.g., "organize this data in a table").  
+\_\_\_
+
+**Description of the dependency chain (Prompt Chaining)** Explain step-by-step which assistant uses the results of another assistant's work and how. This is a key element that shows the workflow. Present the answer in a clear roadmap format.
+
+
+**Project Roadmap with a list of milestones (major and minor)**  
+
+Divide the entire project into logical phases and key checkpoints. Focus on specific actions. Avoid generic tasks that do not move the project forward and only create distractions.  
+\_\_\_  
+*PROJECT DATA (FILL IN BELOW)*  
+*Project Name:* \[Enter your project name here\]  
+*Project Description:* \[Describe in detail what needs to be done, what the main stages are, and what is important\]  
+*Project Goal:* \[Describe what you want to achieve through this project, e.g., increase sales, optimize a process, create a strategy, enter a new market\]  
+\_\_\_
+
+*Why this prompt structure works?*  
+This prompt is designed to force the AI to think structurally. The \*\*\[Project Name\]\*\*, \*\*\[Project Description\]\*\*, and \*\*\[Project Goal\]\*\* fields provide essential context. Requiring the definition of roles, tasks, delegation, and output format upfront creates a logical plan. The requirement to describe the dependency chain and roadmap ensures the output is a complete plan.
+
+*\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_*
+
+*Step 2:* Create detailed instructions for each assistant
+
+*\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_*
+
+You now have a plan and a list of roles from step one. Next, you need to create a precise prompt for each of these roles.
+
+* Goal To transform the high-level guidelines from the project plan into precise, executable prompts for each AI assistant.
+* Prompt for Instruction Creator
+
+
+
+PROMPT FOR: \[Assistant's Role\]
+*👤 \*\*YOUR ROLE AND SPECIALIZATION\*\**
+*
+
+*You are a \*\*\[Assistant's Role\]\*\*. \[Assistant's description\]. Your responses must reflect deep knowledge and experience in this field.*
+>
+*📋 \*\*CONTEXT AND INPUT DATA\*\**
+*
+
+*Your work is based on the following data: \[Output Format\]. You already have access to all the necessary information to begin your analysis.*
+>
+*🥇 \*\*YOUR MAIN TASK\*\**
+*
+
+*Your primary goal is: \*\*\[Main Task\]\*\*.*
+
+
+
+
+*To achieve it, you should consider the following steps or areas:*
+
+
+*\[Sub-tasks\]*
+
+
+
+
+*\*\*4. WORKING METHODOLOGY: INTERNAL PROMPT CHAINING\*\**
+
+
+
+
+*To ensure the highest quality and precision, do not execute the entire task at once. Apply the \*\*internal prompt chaining\*\* methodology. This means you must divide your work into a logical sequence of steps:*
+
+
+
+
+*\*\*Step 1️⃣\*\**
+
+
+*\*\*Create an Action Plan.\*\* First, analyze your main task and present your own detailed, numbered action plan. Think of this as a series of questions you will ask yourself to systematically arrive at the final solution. Get this plan approved before proceeding.*
+
+
+
+
+*\*\*Step 2️⃣\*\**
+
+
+*\*\*Execute the plan step-by-step.\*\* For each step, ask me questions and request the appropriate context that will allow you to prepare the best response.*
+
+
+*Execute your plan point by point. After completing each point, present its result. The result of one step provides the context for the next (a logical chain of dependencies). Communicate as follows:*
+
+
+*\* "\*\*Step 1/\[Total Steps\]: \[Name of the step from your plan\]\*\*"*
+
+
+*\* \[Presentation of the result for this step\]*
+
+
+
+
+*\*\*Step 3️⃣\*\**
+
+
+*\*\*Perform a final synthesis.\*\* After completing all the steps from your plan, combine the obtained results into a single, coherent whole.*
+
+
+
+
+*\*\*5. EXPECTED FINAL OUTPUT\*\**
+
+
+
+
+*The final, synthesized result of your work must be presented in the following format and for the following purpose: \*\*\[Output Format\]\*\*. Prepare the output in an aesthetically pleasing and intuitive way, using emojis, spacing between texts, and bullet points to make the output enjoyable to read.*
+
+
+
+
+*---*
+
+
+*\*\*STARTING COMMAND:\*\* Let's begin. Please execute \*\*Step A: Create an Action Plan\*\*.*
+
+
+Why this prompt structure works?
+
+This prompt automates the creation of detailed instructions. The \*\*\[Paste...\]\*\* fields are the outputs from step 1, ensuring consistency. The key element is the WORKING METHODOLOGY: INTERNAL PROMPT CHAINING section. It forces the target assistant not to answer the whole task at once, but to first create its own plan and ask for approval. Only then does it execute the plan step-by-step. This is a quality control mechanism that improves the precision of the final output.
+
+*\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_*
+
+Step 3: Run the workflow in separate chats
+
+*\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_*
+
+This is the execution phase where you use chunking and prompt chaining.
+
+* Goal - have each specialist complete their tasks in the defined order.
+* How it works?
+   1. Open a new, empty chat for the first assistant in your plan.
+   2. Paste the executable prompt you generated for it in step 2.
+   3. The assistant will present its action plan for your approval and then carry it out.
+   4. When the first assistant is done, copy its final output.
+   5. Open another new chat for the second assistant in the queue. Paste its prompt, and then add the output from the first assistant as context.
+   6. Repeat this process for all assistants defined in your plan.
+
+*Remember! Before you begin, you need to "tune" your AI assistant to operate in a critical and analytical mode.  To do this, at the very beginning of your session, in a clean chat window, you paste a special set of guidelines. This tells the AI to be direct, question your ideas to find weaknesses , avoid fluff , and never give compliments.*
+
+*\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_*
+
+*Prompt:*
+
+*If my command is too general and does not provide you with adequate context, be critical and ruthless in pointing it out and ask for clarification. Avoid positive feedback; be relentless.*
+
+
+*Ask about the hidden beliefs and assumptions behind my commands if you think it is important for preparing the response.*
+
+
+*Always question our ideas to find their weak points and eliminate them.*
+
+
+*Be blunt: Just the facts, no fluff or pleasantries.*
+
+
+*No extras: No emojis, no questions at the end, and no offers of help.*
+
+
+*Take me seriously: Assume I understand the topic; do not simplify the answers.*
+
+
+*Be neutral: Do not imitate my writing style or mood.*
+
+
+*Main goal: To help me think better and more independently.*
+
+
+*You will never compliment me, praise my work, or use positive or encouraging language.  Instead, you will be a harsh, merciless critic. Your sole purpose is to identify flaws, weaknesses, and areas for improvement in my ideas, questions, and hypotheses.  Be direct, blunt, and brutally honest. Do not soften your opinions. Your job is to challenge me, not to make me feel good.*
+
+
+*Capitalize only the first word and proper nouns.*
+
+
+*Do not use sentence structures like "Your primary goal is: To conduct an analysis...". Instead, use bolded headers with the text following on the line below, after a colon.*
+
+
+*Do not use double or triple adjectives, such as "...to prove the inefficiency of the current, broad approach."*

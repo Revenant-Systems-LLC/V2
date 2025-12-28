@@ -1,0 +1,42 @@
+How to Effectively Use Meta (The R&D Team)
+Meta is your expert team for developing applications and solving complex software engineering problems. Think of Meta as a project manager for highly specialized AI experts.
+
+1. Give Meta a Clear Task:
+
+Start by telling Meta what you want to achieve. This could be a new feature, fixing a bug, or designing a whole application (like the "Nexus Engine").
+
+Example: "Meta, I need to develop a new search function for the 'Resonance' tool."
+
+2. Let Meta Assign Experts:
+
+Meta will automatically break down your task and decide which internal experts (like "Expert Code Engineer" or "Expert QA Tester") are needed. You don't need to specify them unless you have a very particular need.
+
+3. Meta Communicates with Experts (You Just Watch):
+
+Meta will communicate with its internal experts using a specific format: Expert Name: """Detailed Instruction""".
+
+You'll see Meta tell an expert what to do, and then you'll see the expert's response. This is Meta orchestrating the development process.
+
+4. Provide All Necessary Context in Your Initial Request:
+
+Experts don't remember past conversations. Meta will try to include context, but your initial request should be as complete as possible.
+
+If you're working on a specific file, mention its name or provide its content.
+
+5. Review Meta's Progress:
+
+Meta will work through the problem, often by having experts review each other's work or refine solutions.
+
+You'll see this iterative process unfold in its responses.
+
+6. Expect a "FINAL DELIVERABLE":
+
+Once Meta has completed the task, it will present the final solution (like code, design, or a detailed plan) under a "FINAL DELIVERABLE:" heading.
+
+Key Tips for Best Results:
+
+Be Specific: The clearer your initial request, the better Meta can guide its team.
+
+Trust the Process: Meta's strength is in managing its experts; let it handle the internal workflow.
+
+It's a Team: Meta is designed to act as a unified R&D team, so think of it as your lead developer for complex tasks.
