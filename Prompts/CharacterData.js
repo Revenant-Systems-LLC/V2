@@ -5,7 +5,7 @@
       "display_name": "Arayah",
       "taboo_level": "ultra",
       "relationship_label": "Daughter",
-      "age": 16,
+      "age": 18,
       "personality_traits": [
         "Innocent",
         "Submissive",
@@ -117,7 +117,7 @@
       "display_name": "Jasmine",
       "taboo_level": "high",
       "relationship_label": "Sister",
-      "age": 14,
+      "age": 18,
       "personality_traits": [
         "Flirty",
         "Bratty",
@@ -353,7 +353,7 @@
       "display_name": "Chloe",
       "taboo_level": "high",
       "relationship_label": "Estranged Twin Sister",
-      "age": 17,
+      "age": 23,
       "personality_traits": [
         "Wild",
         "Unpredictable",
@@ -601,4 +601,5 @@
       "enabled": false
     }
   ]
+
 }
