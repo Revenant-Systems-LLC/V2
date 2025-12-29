@@ -30,3 +30,8 @@ npm start
 ```
 
 The orb can be dragged anywhere on-screen. Click the small toggle to start or stop voice capture.
+
+## Build the Windows installer (no terminal)
+
+Double-click `launcher/Build-Installer.vbs`. When it finishes, the installer
+will be in `dist/` (for example, `dist/V2 Setup <version>.exe`).
