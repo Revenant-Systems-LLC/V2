@@ -49,10 +49,9 @@ body {
   overflow: hidden;
 }
 
-.orb-frame {
+.orb-canvas {
   width: 100%;
   height: 100%;
-  object-fit: contain;
   pointer-events: none;
   filter: drop-shadow(0 0 6px rgba(200, 240, 255, var(--orb-glow, 0.5)));
 }
