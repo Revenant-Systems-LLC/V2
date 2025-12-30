@@ -38,8 +38,8 @@ function createWindow() {
   nativeTheme.themeSource = "dark";
 
   mainWindow = new BrowserWindow({
-    width: 180,
-    height: 180,
+    width: 70,
+    height: 70,
     frame: false,
     transparent: true,
     alwaysOnTop: true,
