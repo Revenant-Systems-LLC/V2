@@ -43,6 +43,7 @@ export class LiveClient extends Emitter {
 
     this.player.onLevel = (level) => {
       this.emit("speaking", level > 0.02);
+      this.emit("level", level);
     };
   }
 

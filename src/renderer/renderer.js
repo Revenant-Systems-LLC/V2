@@ -2,6 +2,7 @@ import { LiveClient } from "./liveClient.js";
 
 const orb = document.getElementById("orb");
 const orbShell = document.getElementById("orb-shell");
+const orbFrame = document.getElementById("orb-frame");
 
 let liveClient;
 let active = false;
@@ -9,13 +10,29 @@ let dragging = false;
 let dragMoved = false;
 let dragOffset = { x: 0, y: 0 };
 let windowPosition = { x: 0, y: 0 };
+let orbFrames = [];
+let orbFrameIndex = 0;
+let orbFrameTimer;
 
 async function init() {
   const config = await window.v2.getConfig();
   liveClient = new LiveClient(config);
+  orbFrames = config.orbFrames || [];
+  startFrameAnimation(config.orbFrameRate || 8);
+  if (orbFrame && orbFrames.length === 0) {
+    orbFrame.style.display = "none";
+  }
 
   liveClient.on("speaking", (state) => {
     orb.classList.toggle("speaking", state);
+  });
+
+  liveClient.on("level", (level) => {
+    const clamped = Math.max(0, Math.min(1, level * 4));
+    const scale = 1 + clamped * 0.08;
+    const glow = 0.35 + clamped * 0.65;
+    orb.style.setProperty("--orb-scale", scale.toFixed(3));
+    orb.style.setProperty("--orb-glow", glow.toFixed(3));
   });
 
   liveClient.on("status", (status) => {
@@ -25,6 +42,19 @@ async function init() {
   window.v2.onToggleListening(async () => {
     await toggleListening();
   });
+}
+
+function startFrameAnimation(frameRate) {
+  if (!orbFrame || orbFrames.length === 0) return;
+  const interval = 1000 / Math.max(1, frameRate);
+  orbFrame.src = orbFrames[0];
+  if (orbFrameTimer) {
+    clearInterval(orbFrameTimer);
+  }
+  orbFrameTimer = setInterval(() => {
+    orbFrameIndex = (orbFrameIndex + 1) % orbFrames.length;
+    orbFrame.src = orbFrames[orbFrameIndex];
+  }, interval);
 }
 
 async function startListening() {
@@ -59,6 +89,7 @@ orb.addEventListener("click", async () => {
 
 orbShell.addEventListener("pointerdown", async (event) => {
   if (event.button !== 0) return;
+  event.preventDefault();
   dragging = true;
   dragMoved = false;
   const position = await window.v2.getWindowPosition();
@@ -69,6 +100,7 @@ orbShell.addEventListener("pointerdown", async (event) => {
 
 orbShell.addEventListener("pointermove", async (event) => {
   if (!dragging) return;
+  event.preventDefault();
   const deltaX = event.screenX - dragOffset.x;
   const deltaY = event.screenY - dragOffset.y;
   if (Math.abs(deltaX) > 2 || Math.abs(deltaY) > 2) {

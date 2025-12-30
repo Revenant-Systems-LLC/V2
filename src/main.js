@@ -169,6 +169,7 @@ ipcMain.handle("v2:set-window-position", (_event, position) => {
   }
 });
 
+
 ipcMain.on("v2:listening-changed", (_event, listening) => {
   isListening = Boolean(listening);
   updateTrayMenu();
